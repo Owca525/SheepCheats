@@ -1,0 +1,16 @@
+[
+{
+  "modid": "",
+  "name": "SheapCheats",
+  "description": "Simple hacks",
+  "version": "Alpha",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Owca525"],
+  "credits": "",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]

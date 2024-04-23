@@ -12,9 +12,9 @@ apply plugin: 'net.minecraftforge.gradle'
 apply plugin: 'eclipse'
 apply plugin: 'maven-publish'
 
-version = 'alpha'
-group = 'com.yourname.modid' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
-archivesBaseName = 'cheatsheep'
+version = 'alpha-1'
+group = 'com.owcadev.sheepcheats' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
+archivesBaseName = 'sheepcheats'
 
 sourceCompatibility = targetCompatibility = compileJava.sourceCompatibility = compileJava.targetCompatibility = '1.8' // Need this here so eclipse task generates correctly.
 
@@ -23,12 +23,20 @@ minecraft {
     runs {
         client {
             workingDirectory project.file('run')
+
+            // Recommended logging data for a userdev environment
             property 'forge.logging.markers', 'SCAN,REGISTRIES,REGISTRYDUMP'
+
+            // Recommended logging level for the console
             property 'forge.logging.console.level', 'debug'
         }
 
         server {
+
+            // Recommended logging data for a userdev environment
             property 'forge.logging.markers', 'SCAN,REGISTRIES,REGISTRYDUMP'
+
+            // Recommended logging level for the console
             property 'forge.logging.console.level', 'debug'
         }
     }
@@ -41,9 +49,9 @@ dependencies {
 jar {
     manifest {
         attributes([
-            "Specification-Title": "SheapCheats",
+            "Specification-Title": "sheepcheats",
             "Specification-Vendor": "",
-            "Specification-Version": "alpha", // We are version 1 of ourselves
+            "Specification-Version": "alpha1",
             "Implementation-Title": project.name,
             "Implementation-Version": "${version}",
             "Implementation-Vendor" :"",
@@ -51,6 +59,7 @@ jar {
         ])
     }
 }
+
 jar.finalizedBy('reobfJar')
 
 publishing {

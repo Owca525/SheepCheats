@@ -9,7 +9,8 @@ SheepCheats to są proste cheaty do minecraft które są pisane w forge. Piszę 
 - J  `Pokazuje Hitboxy Itemów/Strzałów (Domyślnie włączone)`
 - V  `Pokazuje Hitboxy Bedy/ender|chest/ (Domyślnie włączone)`
 - O  `AutoSword Który automatycznie zmienia miecz kiedy uderzasz gracza/moba (Domyślnie wyłączone)`
-- K  `Autoclicker Czyli kiedy klikasz to klika randomowo od 4-20 (Domyślnie wyłączone)`
+- K  `Autoclicker Czyli kiedy klikasz to klika randomowo od 20-30 (Domyślnie wyłączone)`
+- x  `TriggerBot Dodano w alpha-2 (domyślnie wyłączone)`
 
 # Potrzebne rzeczy do kompilacji 
 - [Intelij](https://www.jetbrains.com/idea/)

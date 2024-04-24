@@ -3,7 +3,7 @@
 
 SheepCheats to są proste cheaty do minecraft które są pisane w forge. Piszę to for fun i do doświadczenia bo czemu nie nowe rzeczy są rzeczy a nie wiadomo czy się to przyda.
 
-# Co się znajduje 
+# Co się znajduje/Co planuje
 - ESP do Chestów, Ender Chestów, Łóżek, Graczy, Mobów, Itemów, Strzał
 - Autoclicker
 - Trigger Bot

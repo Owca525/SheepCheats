@@ -5,13 +5,13 @@ SheepCheats to są proste cheaty do minecraft które są pisane w forge. Piszę 
 
 # Co się znajduje/Co planuje
 - ESP
- - [x] Chest
- - [x] Ender Chest
- - [x] Bed
- - [X] Player/Entity
+  - [x] Chest
+  - [x] Ender Chest
+  - [x] Bed
+  - [X] Player/Entity
 - Combat
-- [X] Autoclicker
-- [X] Trigger Bot
+  - [X] Autoclicker
+  - [X] Trigger Bot
 
 # Skróty klawiszowe
 - H  `Pokazuje Hitboxy mobów (Domyślnie wyłączone)`

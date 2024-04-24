@@ -5,10 +5,7 @@ SheepCheats to są proste cheaty do minecraft które są pisane w forge. Piszę 
 
 # Co się znajduje 
 - ESP do Chestów, Ender Chestów, Łóżek, Graczy, Mobów, Itemów, Strzał
-<picture>
-  <source srcset='https://raw.githubusercontent.com/Owca525/SheapCheats/main/github/config.png'>
-  <img src='../github/config.png' alt="Config SheepCheats">
-</picture>
+![ESP Podgląd](/github/ESP.jpg?raw=true "ESP")
 - Autoclicker
 - Trigger Bot
 

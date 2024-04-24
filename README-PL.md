@@ -4,14 +4,28 @@
 SheepCheats to są proste cheaty do minecraft które są pisane w forge. Piszę to for fun i do doświadczenia bo czemu nie nowe rzeczy są rzeczy a nie wiadomo czy się to przyda.
 
 # Co się znajduje/Co planuje
-- ESP
+- Renderowanie/ESP
   - [x] Chest
   - [x] Ender Chest
   - [x] Bed
   - [X] Player/Entity
+  - [ ] Pokazywanie HP
+  - [ ] Pokazywanie Trzymane Itemy
+  - [ ] Custom Name Tagi
 - Combat
-  - [X] Autoclicker
-  - [X] Trigger Bot
+  - [x] Autoclicker
+  - [ ] Trigger Bot
+  - [ ] Aimbot (Lekki)
+  - [x] AutoSword
+- Poboczne rzeczy
+  - [ ] Wywalanie wszystkiego z hotbar
+  - [ ] bindowane wiadomości
+  - [ ] Wiadomości po zabijaniu
+- Wersje Minecraft
+  - [ ] 1.8.9
+  - [x] 1.12.2
+  - [ ] 1.16.5
+  - [ ] 1.18.2  
 
 # Skróty klawiszowe
 - H  `Pokazuje Hitboxy mobów (Domyślnie wyłączone)`

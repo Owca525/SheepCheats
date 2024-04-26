@@ -1,5 +1,5 @@
 # SheapCheats
-- [Polish Readme](README-PL.md)
+- [Polski Readme](README-PL.md)
 
 SheepCheats are simple cheats for Minecraft written in Forge. I'm doing this for fun and experience because why not, new things are things and who knows if it will be useful.
 
@@ -13,9 +13,10 @@ SheepCheats are simple cheats for Minecraft written in Forge. I'm doing this for
   - [ ] Display Held Items
   - [ ] Custom Name Tags
   - [ ] Display Enchanted Armor
+  - [x] FreeCam
 - Combat
   - [x] Autoclicker
-  - [ ] Trigger Bot
+  - [x] Trigger Bot
   - [ ] Aimbot (Light)
   - [x] AutoSword
 - Miscellaneous
@@ -39,7 +40,7 @@ SheepCheats are simple cheats for Minecraft written in Forge. I'm doing this for
 - Or change keyboard shortcuts as desired.
 
 # Required for Compilation
-- [Intelij](https://www.jetbrains.com/idea/)
+- [IntelliJ](https://www.jetbrains.com/idea/)
 - Gradle 4.9
 
 # Credits

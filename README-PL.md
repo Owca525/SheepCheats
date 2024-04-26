@@ -13,9 +13,10 @@ SheepCheats to są proste cheaty do minecraft które są pisane w forge. Piszę 
   - [ ] Pokazywanie Trzymane Itemy
   - [ ] Custom Name Tagi
   - [ ] Pokazywanie Zbroji z enchantami
+  - [x] FreeCam
 - Combat
   - [x] Autoclicker
-  - [ ] Trigger Bot
+  - [x] Trigger Bot
   - [ ] Aimbot (Lekki)
   - [x] AutoSword
 - Poboczne rzeczy

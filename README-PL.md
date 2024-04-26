@@ -40,7 +40,7 @@ SheepCheats to są proste cheaty do minecraft które są pisane w forge. Piszę 
 - Lub Można samemu Zmienić skróty klawiszowe
 
 # Potrzebne rzeczy do kompilacji 
-- [Intelij](https://www.jetbrains.com/idea/)
+- [IntelliJ](https://www.jetbrains.com/idea/)
 - Gradle 4.9
 
 # Credits 

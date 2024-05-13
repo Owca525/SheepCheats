@@ -9,7 +9,7 @@ SheepCheats to są proste cheaty do minecraft które są pisane w forge. Piszę 
   - [x] Ender Chest
   - [x] Bed
   - [X] Player/Entity
-  - [ ] Pokazywanie HP
+  - [x] Pokazywanie HP
   - [ ] Pokazywanie Trzymane Itemy
   - [ ] Custom Name Tagi
   - [ ] Pokazywanie Zbroji z enchantami

@@ -9,7 +9,7 @@ SheepCheats are simple cheats for Minecraft written in Forge. I'm doing this for
   - [x] Ender Chest
   - [x] Bed
   - [X] Player/Entity
-  - [ ] Display HP
+  - [x] Display HP
   - [ ] Display Held Items
   - [ ] Custom Name Tags
   - [ ] Display Enchanted Armor

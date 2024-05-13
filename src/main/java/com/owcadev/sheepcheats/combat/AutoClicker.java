@@ -1,5 +1,9 @@
 package com.owcadev.sheepcheats.combat;
 
+import net.minecraft.client.Minecraft;
+import net.minecraft.client.gui.GuiMainMenu;
+import net.minecraft.entity.player.EntityPlayer;
+
 import java.awt.*;
 import java.util.Random;
 
@@ -22,6 +26,7 @@ public class AutoClicker {
     }
 
     private void click() {
+        EntityPlayer player = Minecraft.getMinecraft().player;
         try {
             Robot robot = new Robot();
 
@@ -30,12 +35,23 @@ public class AutoClicker {
                     if (!isClicking) {
                         break;
                     }
-                    for (int i = 0; i < new Random().nextInt(6) + 22; i++) {
+
+                    /*
+                    if (Minecraft.getMinecraft().currentScreen == null || Minecraft.getMinecraft().currentScreen instanceof GuiMainMenu) {
+                        break;
+                    }
+
+                    if (player != null && player.isDead) {
+                        break;
+                    }
+                    */
+                    for (int i = 0; i < new Random().nextInt(5) + 10; i++) {
                         robot.mousePress(java.awt.event.InputEvent.BUTTON1_DOWN_MASK);
                         robot.mouseRelease(java.awt.event.InputEvent.BUTTON1_DOWN_MASK);
-                        Thread.sleep(new Random().nextInt(20) + 20);
+                        Thread.sleep(new Random().nextInt(40) + 20);
                     }
-                    Thread.sleep(new Random().nextInt(20) + 10);
+
+                    Thread.sleep(1);
                 }
             }
         } catch (AWTException | InterruptedException e) {

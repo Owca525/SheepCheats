@@ -17,6 +17,8 @@ public class KeyBinds {
     public static KeyBinding triggerBot;
     public static KeyBinding showstatusinchat;
     public static KeyBinding freeCam;
+    public static KeyBinding xray;
+    public static KeyBinding menu;
 
     private static String category = "SheepCheats";
 
@@ -30,6 +32,8 @@ public class KeyBinds {
         showstatusinchat = new KeyBinding("Show Status cheats", Keyboard.KEY_M, category);
         triggerBot = new KeyBinding("TriggerBot", Keyboard.KEY_NONE, category);
         freeCam = new KeyBinding("FreeCam", Keyboard.KEY_NONE, category);
+        // xray = new KeyBinding("Xray", Keyboard.KEY_NONE, category);
+        // menu = new KeyBinding("Menu", Keyboard.KEY_RSHIFT, category);
 
         ClientRegistry.registerKeyBinding(entityHitbox);
         ClientRegistry.registerKeyBinding(playerHitbox);
@@ -40,5 +44,7 @@ public class KeyBinds {
         ClientRegistry.registerKeyBinding(showstatusinchat);
         ClientRegistry.registerKeyBinding(triggerBot);
         ClientRegistry.registerKeyBinding(freeCam);
+        // ClientRegistry.registerKeyBinding(xray);
+        // ClientRegistry.registerKeyBinding(menu);
     }
 }

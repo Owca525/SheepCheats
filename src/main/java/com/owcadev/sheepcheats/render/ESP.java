@@ -6,6 +6,7 @@ import net.minecraft.entity.Entity;
 import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.entity.item.EntityArmorStand;
 import net.minecraft.entity.item.EntityItem;
+import net.minecraft.entity.item.EntityTNTPrimed;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.entity.projectile.EntityTippedArrow;
 import net.minecraft.tileentity.TileEntity;
@@ -80,6 +81,11 @@ public class ESP {
             // Mob
             if (!(entity instanceof EntityPlayer) && entity instanceof EntityLivingBase && !(entity instanceof EntityItem) && !(entity instanceof EntityArmorStand) && entityhitbox) {
                 GL11.glColor3f(0.0F, 1.0F, 0.0F);
+                render(entity);
+            }
+
+            if (entity instanceof EntityTNTPrimed) {
+                GL11.glColor3f(1.0F, 0.0F, 0.0F);
                 render(entity);
             }
 

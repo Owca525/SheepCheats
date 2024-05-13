@@ -1,10 +1,18 @@
 package com.owcadev.sheepcheats.combat;
 
 import net.minecraft.client.Minecraft;
+import net.minecraft.client.gui.GuiMainMenu;
 import net.minecraft.entity.EntityLivingBase;
+import net.minecraft.entity.player.EntityPlayer;
+import net.minecraft.inventory.Container;
+import net.minecraft.inventory.ContainerChest;
+import net.minecraft.inventory.ContainerPlayer;
 import net.minecraft.util.EnumHand;
+import net.minecraft.util.text.ITextComponent;
+import net.minecraft.util.text.TextComponentString;
 import net.minecraftforge.client.event.RenderGameOverlayEvent;
 
+import java.awt.*;
 import java.util.Random;
 
 public class TriggerBot {
@@ -14,16 +22,48 @@ public class TriggerBot {
 
     private Thread triggerbotThread;
 
+    private boolean isPlayerInInventory() {
+        Container container = mc.player.openContainer;
+
+        if (container != null && !(container instanceof ContainerPlayer)) {
+            return true;
+        } else {
+            return false;
+        }
+    }
+
+    private void click() throws AWTException {
+        Robot robot = new Robot();
+        robot.mousePress(java.awt.event.InputEvent.BUTTON1_DOWN_MASK);
+        robot.mouseRelease(java.awt.event.InputEvent.BUTTON1_DOWN_MASK);
+    }
+
     private void bot() {
+        EntityPlayer player = Minecraft.getMinecraft().player;
         for (int i = 0; i < new Random().nextInt(6) + 22; i++) {
             try {
                 if (!triggerbotlock) {
                     break;
                 }
-                mc.playerController.attackEntity(mc.player, mc.objectMouseOver.entityHit);
-                mc.player.swingArm(EnumHand.MAIN_HAND);
-                Thread.sleep(new Random().nextInt(11) + 30);
+
+                if (isPlayerInInventory()) {
+                    break;
+                }
+
+                /*
+                if (Minecraft.getMinecraft().currentScreen == null || Minecraft.getMinecraft().currentScreen instanceof GuiMainMenu) {
+                    break;
+                }
+
+                if (player != null && player.isDead) {
+                   break;
+                }
+                */
+                click();
+                Thread.sleep(new Random().nextInt(50) + 50);
             } catch (InterruptedException e) {
+                throw new RuntimeException(e);
+            } catch (AWTException e) {
                 throw new RuntimeException(e);
             }
         }
@@ -36,7 +76,7 @@ public class TriggerBot {
             }
         }
 
-        if (mc.objectMouseOver != null && mc.objectMouseOver.entityHit instanceof EntityLivingBase) {} else {
+        if (mc.objectMouseOver != null && mc.objectMouseOver.entityHit instanceof EntityPlayer) {} else {
             triggerbotlock = false;
         }
 

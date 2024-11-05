@@ -1,4 +1,4 @@
-# SheapCheats
+# SheepCheats
 - [Polski Readme](README-PL.md)
 
 SheepCheats are simple cheats for Minecraft written in Forge. I'm doing this for fun and experience because why not, new things are things and who knows if it will be useful.

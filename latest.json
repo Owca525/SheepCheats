@@ -1,0 +1,15 @@
+{
+  "version": "0.2.0",
+  "notes": "",
+  "pub_date": "2024-12-12T18:41:32Z",
+  "platforms": {
+    "linux-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRQ29SaFVZcmNNZjUybllLNVM3R0RwZ2MyaHhqa3BiSDlIYTluN05ETlBMS0FwcmcxYkFFT3NnbFRHZWYrMm4rTGU2cVQ4cUcrNE9IZzJxK080a3I4V2pFcXhyb3hLN0FFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzM0MDI2MjIwCWZpbGU6YW5pbXVfMC4xLjBfYW1kNjQuQXBwSW1hZ2UKa25vTWdkNDRmRDRCY1FZbXJhaWllOW1DR0Y5akpHOUxXUzhTbGhJbWx5Tlg0OFljejZNeXB0Zit6eFRRbnZRM2pzUGNhd3lnQ3ZVUUd5WEtNRE4zQXc9PQo=",
+      "url": "http://127.0.0.1:5000/files/animu_0.1.0_amd64.AppImage"
+    },
+    "windows-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRQ29SaFVZcmNNZjJIZmFCYjJ4V29KM3FCNS9zcDVkd3ljUFVpajAzbGVndi9kZUxDdDdudGZYL0MxTmxUTUlKbnZCbTBHaHRQY0dUa0FQcndueERTMUxIODRzbDdwa3dBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzM0MDI4Mzk4CWZpbGU6YW5pbXVfMC4xLjBfeDY0X2VuLVVTLm1zaQpFcjNiTXZmU3h2YmVySk1xaXJ3SDUrM2F1dldqNVdvOUhnWHNvdVBnREt4eXFPMTgvNlBBRWR3Vk9QbkQrVTB1bEJNK0hZZ2R5eUpLOU92UlhFeW9Edz09Cg==",
+      "url": "http://127.0.0.1:5000/files/animu_0.1.0_x64_en-US.msi"
+    }
+  }
+}
